@@ -1,0 +1,39 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.about-image{
+    width: 50%;
+}
+.about-img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px hsla(0, 0%, 64%, 0.197);
+}
+.about-description{
+    background-color: hsla(199, 100%, 68%, 0.932);
+    min-width: 300px;
+    max-width: 500px;
+    height: 70vh;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.about-description h1{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: Helvetica, Arial,  sans-serif;
+    margin-bottom: 80px;
+    color: hsl(273, 100%, 26%);
+}
+.about-description p{
+   
+    font-size: 20px;
+    color: hsl(273, 100%, 26%);
+}

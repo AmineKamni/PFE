@@ -1,0 +1,213 @@
+.container {
+    background-color: hsla(0, 0%, 91%, 0.405);
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+    text-align: right;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    
+    
+    
+  }
+.container p{
+    padding: 5px;
+    
+}
+.container .text-link{
+    text-decoration: none;
+}
+.container .text-link:visited{
+    color: gray;
+}
+
+.container button:hover{
+    background-color: hsl(195, 100%, 71%);
+}
+.container button:active{
+    background-color: hsl(195, 100%, 63%);
+}
+
+.container span{
+
+    color: black
+}
+.counter {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .icon {
+    margin-left: 15px;
+
+    position: relative;
+  }
+ 
+  .notifications {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: hsla(0, 0%, 78%, 0.688);
+    color: black;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 100px;
+    text-align: center;
+    animation: slowshow 1s;
+  }
+  @keyframes slowshow {
+    from{
+        opacity: 0;
+        transform: translateY(-30px) ;
+    }
+    to{
+        opacity: 1;
+        
+    }
+  }
+ 
+  .notification {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .logoIMG{
+    height: 70px;
+    cursor: pointer;
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+
+  .logout{
+    margin-top: 10px;
+    background-color: hsla(195, 100%, 68%, 0.475);
+    color:hsla(0, 0%, 0%, 0.974);
+    padding: 5px;
+    border: 2px solid hsla(195, 100%, 68%, 0.974);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    transition: 0.4s;
+   
+}
+.logout:hover{
+    background-color: hsla(195, 100%, 68%, 0.692);
+    color:hsla(0, 0%, 100%, 0.974);
+    border: 2px solid hsla(195, 100%, 68%, 0.974);
+    box-shadow: 0 0 3px 3px  hsla(195, 100%, 83%, 0.526);
+    
+   
+}
+.logout:active{
+    background-color: hsl(195, 100%, 68%);
+    color:hsla(0, 0%, 100%, 0.974);
+    border: 2px solid hsla(195, 100%, 68%, 0.974);
+  
+}
+.nButton{
+  margin-top: 10px;
+  background-color: hsla(195, 100%, 68%, 0.475);
+  color:hsla(0, 0%, 0%, 0.974);
+  padding: 5px;
+  border: 2px solid hsla(195, 100%, 68%, 0.974);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  transition: 0.4s;
+ 
+ 
+}
+.nButton:hover{
+  background-color: hsla(195, 100%, 68%, 0.692);
+  color:hsla(0, 0%, 100%, 0.974);
+  border: 2px solid hsla(195, 100%, 68%, 0.974);
+  box-shadow: 0 0 3px 3px  hsla(195, 100%, 83%, 0.526);
+ 
+}
+.nButton:active{
+  background-color: hsl(195, 100%, 68%);
+  color:hsla(0, 0%, 100%, 0.974);
+  border: 2px solid hsla(195, 100%, 68%, 0.974);
+
+}
+.profile-navelement{
+  text-align: left;
+  font-size: 16px;
+  padding: 7px;
+  border-bottom: 1px solid rgba(116, 116, 116, 0.407);
+  width: 100%;
+  border-radius: 5px;
+
+}
+.profile-navelement:hover{
+  background-color: rgb(230, 230, 230);
+}
+.profile-navelement p{
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+.profile-navelement p:hover{
+  color:hsl(222, 100%, 30%);
+  font-weight: bold;
+  padding-left: 10px;
+  transition: 0.1s;
+}
+.profile-navelement p:active{
+  color:hsl(0, 0%, 100%);
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#notif-p{
+  text-align: left;
+  cursor: pointer;
+  margin: 0px;
+  border-bottom: 1px solid rgb(66, 66, 66);
+  font-size: 12px;
+}
+#notif-p:hover{
+  color: hsl(0, 0%, 49%);
+}

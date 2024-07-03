@@ -1,0 +1,62 @@
+
+.pfe-container p{
+    width: 65px;
+
+}
+.pfe-info{
+    text-align: center;
+}
+.pfe-edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pfe-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pfe-form input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+
+}
+.pfe-cell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 91%, 0.37);
+    width: 350px;
+}
+.pfe-field{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.pfe-student{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+.pfe-choice{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.pfe-select{
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px hsla(0, 0%, 33%, 0.418);
+
+}

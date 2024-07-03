@@ -1,0 +1,14 @@
+.marginleft{
+    margin-left: 260px;
+    transition: 0.4s;
+}
+.margintop{
+    margin-top: 90px;
+    
+}
+.marginsmall{
+    margin-left: 100px;
+    transition: 0.5s;
+
+
+}
